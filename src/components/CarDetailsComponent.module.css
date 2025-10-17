@@ -1,0 +1,31 @@
+.cars{
+    display: flex;
+    justify-content: space-between;
+}
+
+.car{
+    border: 5px solid #c42626;
+    width: 370px;
+    border-radius: 10px;
+    background-color: #000;
+    padding: 10px;
+}
+
+.car img{
+    width: 340px;
+    height: 200px;
+    margin: 5px;
+    border: 3px solid #c42626;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.car h3{
+    color: #fff;
+}
+.car p{
+    color: #fff;
+    margin: 10px;
+    border: 0px;
+}
+

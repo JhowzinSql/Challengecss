@@ -1,6 +1,8 @@
 import "./App.css";
 import MyComponent from "./components/MyComponent";
 import Title from "./components/Title"; // LINHA ADICIONADA
+import CarTitle from "./components/CarTitle";
+import CarDetailsComponent from "./components/CarDetailsComponent";
 
 function App() {
   const n = 15;
@@ -37,6 +39,9 @@ function App() {
       {/* CSS modules */}
       <Title />
       <h1 className="title">Este não recebe título do CSS modules</h1>
+      <br />
+      <CarTitle />
+      <CarDetailsComponent />
     </div>
   );
 }
