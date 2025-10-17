@@ -1,8 +1,8 @@
 import "./App.css";
 import MyComponent from "./components/MyComponent";
 import Title from "./components/Title"; // LINHA ADICIONADA
-import CarTitle from "./components/CarTitle";
-import CarDetailsComponent from "./components/CarDetailsComponent";
+import CarTitle from "./components/Cars/CarTitle";
+import CarDetailsComponent from "./components/Cars/CarDetailsComponent";
 
 function App() {
   const n = 15;
